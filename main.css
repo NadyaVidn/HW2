@@ -78,3 +78,19 @@ a:hover{
   .main a{
     text-transform: capitalize;
   }
+  .bg-footer{
+    background-color:#cb3362;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+      }
+.bg-footer a{
+        color: white;
+        font-size: 1.5em;
+        padding: 10px;
+      }
+.bg-footer p{
+        font: 0.7em Lato-Regular;
+        color: white;
+        text-transform: capitalize;
+      }
