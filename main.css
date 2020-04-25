@@ -1,0 +1,35 @@
+@font-face{
+    font-family: Lato-Regular;
+    src:url(font/lato-regular-webfont.ttf)
+  }
+  
+  .bg-header{background-color:#eae7e8;}
+  
+  .bg-header ul{
+         margin-bottom: 0;
+         padding: 0;
+         list-style-type: none;
+      }
+  
+  .bg-header a{
+    font: 1em Lato-Regular;
+      color: #9d8f8f;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  .bg-header .row{
+      padding: 15px;
+  }
+  .about{
+    background-color: #c8c10d;
+    height: 80px;
+      }
+  
+  .about p{
+    font:1.5em Lato-Regular;
+    text-transform: uppercase;
+    color: white;
+    margin:0;
+  }
+  
+  .bg-foto{background-color: #ebebed;}
