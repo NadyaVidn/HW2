@@ -33,7 +33,9 @@
   }
   
   .bg-foto{background-color: #ebebed;}
-  
+  .foto {
+    width: 100%;
+    }
 .content{
     margin: 40px 0 100px 0;
 }
@@ -93,4 +95,20 @@ a:hover{
         font: 0.7em Lato-Regular;
         color: white;
         text-transform: capitalize;
+      }
+      @media screen and (max-width:769px){
+        .foto {
+          width: 90%;
+
+          }
+      }
+      @media screen and (max-width:480px){
+        .foto {
+          width: 30%;
+          }
+      }
+      @media screen and (max-width:320px){
+        .foto {
+          width: 20%;
+                  }
       }
